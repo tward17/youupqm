@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 0,
+    "Name": "Loft Pi",
+    "DestinationAddress": "192.168.0.11",
+    "CheckType": "Ping",
+    "CheckTimeout": 1000,
+    "CheckAttempts": 4,
+    "Enabled": true
+  },
+  {
+    "Id": 1,
+    "Name": "Garage Pi",
+    "DestinationAddress": "192.168.0.10",
+    "CheckType": "Ping",
+    "CheckTimeout": 1000,
+    "CheckAttempts": 4,
+    "Enabled": true
+  },
+  {
+    "Id": 2,
+    "Name": "Thomas Ward Photography",
+    "DestinationAddress": "https://www.thomaswardphotography.com/",
+    "CheckType": "Http",
+    "CheckTimeout": 2000,
+    "CheckAttempts": 4,
+    "Enabled": true
+  },
+  {
+    "Id": 3,
+    "Name": "Bad Address",
+    "DestinationAddress": "192.168.1.10",
+    "CheckType": "Ping",
+    "CheckTimeout": 1000,
+    "CheckAttempts": 4,
+    "Enabled": true
+  }
+]
